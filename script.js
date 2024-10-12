@@ -140,7 +140,7 @@ function setARWLinks(data) {
             var target_a = document.getElementById(`${file.name}`);
             if (target_a) {
                 target_a.href = file.download_url; // Set the href only if the element exists
-                target_a.download=`${file.name}`
+                // target_a.download=`${file.name}`
             }
         }
     });
