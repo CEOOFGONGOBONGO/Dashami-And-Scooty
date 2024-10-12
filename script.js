@@ -15,9 +15,7 @@ async function fetchMedia() {
         const response = await fetch(repoURL);
         const data = await response.json();
 
-        if (data.message === "Bad credentials") {
-            alert("Wrong token! Try again!");
-        } else {
+         
             document.querySelector("html").innerHTML = insta_sexy_html;
             const videoGalleryContent = document.querySelector(".video-gallery .contents");
             const imageGalleryContent = document.querySelector(".image-gallery .contents");
@@ -57,7 +55,7 @@ async function fetchMedia() {
             // Call function to set ARW links after media is rendered
             setARWLinks(data)
 
-        }
+        
 
     } catch (error) {
         console.error('Error fetching media:', error);
