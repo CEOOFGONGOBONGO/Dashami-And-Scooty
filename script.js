@@ -20,7 +20,7 @@ const insta_sexy_html = `<!DOCTYPE html>
 
 <body>
     <div class="container">
-        <h1>Stree 2 Movie At Krishnanagar Memories</h1>
+        <h1>দশমী ও স্কুটি</h1>
 
         <!-- Videos Section -->
         <section class="video-gallery">
